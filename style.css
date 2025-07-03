@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+#map {
+  height: 90%;
+  width: 100%;
+}
+#controls {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+  border-top: 1px solid #ccc;
+}
+input {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #357ae8;
+}
